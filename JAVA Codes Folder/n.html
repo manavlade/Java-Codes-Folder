@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Booking Form - Railway Reservation </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="path/to/css/smart-forms.css">
+    <link rel="stylesheet" href="path/to/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="smart-wrap">
+    <div class="smart-forms smart-container wrap-2">
+
+        <div class="form-header header-primary">
+            <h4><i class="fa fa-calendar"></i>WELCOME TO RAILWAY RESERVATION PLEASE ENTER FOLLOWING DETAILS</h4>
+        </div>
+
+        <form method="post" action="/" id="booking-form">
+            <div class="form-body">
+
+                <!-- OUR FORM ELEMENTS WILL GO HERE -->
+
+            </div>
+            <div class="form-footer">
+                <button type="submit" class="button btn-primary">Confirm Booking</button>
+                <button type="reset" class="button">Cancel</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+<div class="section">
+    <label for="guestname" class="field-label">PLEASE ENTER YOUR NAME</label>
+    <label for="guestname" class="field prepend-icon">
+        <input type="text" name="guestname" id="guestname" class="gui-input" required=""
+            placeholder="John Doe/Jane Doe">
+        <span class="field-icon"><i class="fa fa-user"></i></span>
+    </label>
+</div>
+
+<div class="frm-row">
+    <div class="section colm colm6">
+        <label for="guestemail" class="field-label">ENTER Email Address</label>
+        <label for="guestemail" class="field prepend-icon">
+            <input type="email" name="guestemail" id="guestemail" class="gui-input" required=""
+                placeholder="john@something.com">
+            <span class="field-icon"><i class="fa fa-envelope"></i></span>
+        </label>
+    </div>
+
+    <div class="section colm colm6">
+        <label for="guestelephone" class="field-label">ENTER MOBILE NUMBER </label>
+        <label for="guestelephone" class="field prepend-icon">
+            <input type="text" name="guestelephone" id="guestelephone" class="gui-input" required=""
+                placeholder="Telephone / Moble Number">
+            <span class="field-icon"><i class="fa fa-phone-square"></i></span>
+        </label>
+    </div>
+</div>
+
+<div class="frm-row">
+    <div class="section colm colm6">
+        <label for="adults" class="field-label">NUMBER OF ADULTS</label>
+        <label for="adults" class="field prepend-icon">
+            <input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of adults">
+            <span class="field-icon"><i class="fa fa-users"></i></span>
+        </label>
+    </div>
+
+    <div class="section colm colm6">
+        <label for="children" class="field-label">NUMBER OF CHILDREN</label>
+        <label for="children" class="field prepend-icon">
+            <input type="number" id="children" name="children" class="gui-input" required=""
+                placeholder="Number of children">
+            <span class="field-icon"><i class="fa fa-users"></i></span>
+        </label>
+    </div>
+</div>
+
+<div class="frm-row">
+    <div class="section colm colm6">
+        <label for="checkin" class="field-label">TRAIN BOOKING DATE </label>
+        <label for="checkin" class="field prepend-icon">
+            <input type="text" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">
+            <span class="field-icon"><i class="fa fa-calendar"></i></span>
+        </label>
+    </div>
+
+<div class="spacer-t20 spacer-b30">
+    <div class="tagline"><span>PLEASE ANSWER BELOW QUESTIONS</span></div>
+</div>
+
+<div class="frm-row">
+    <div class="option-group field">
+
+        <div class="section colm colm6">
+            <label class="switch">
+                <input type="checkbox" name="switch1" id="switch1" value="switch1">
+                <span class="switch-label" data-on="YES" data-off="NO"></span>
+                <span>WOULD YOU LIKE TO GO IN AC OR NON AC</span>
+            </label>
+        </div>
+
+
+
+
+<div class="section">
+    <label for="comment" class="field-label">Anything else we should know about?</label>
+    <label for="comment" class="field prepend-icon">
+        <textarea class="gui-textarea" id="comment" name="comment"
+            placeholder="Let us know about any special accommodation needs"></textarea>
+        <span class="field-icon"><i class="fa fa-comments"></i></span>
+        <span class="input-hint">
+            <strong>Please:</strong> Be as descriptive as possible
+        </span>
+    </label>
+</div>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.form.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/additional-methods.min.js"></script>
+</body>
+
+</html>
