@@ -1,6 +1,5 @@
 public class IMP {
     public static void main(String[] args) {
-        //HAI ISME SAB IMPORTANT FUNCTIONS HAI JAISE FACTORIAL STAR PATTERN PRIME NUMBER VAGAIRA
    /*  int [] SALARY = {72, 60, 1, 90};
     int num = 90;
     boolean isinArray = false;
