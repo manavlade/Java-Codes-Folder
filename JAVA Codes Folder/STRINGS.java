@@ -1,12 +1,10 @@
 import java.util.Scanner;
 public class STRINGS {
    public static void main(String[] args) {
-    String google = new String ("MANAV");
-System.out.println(google);
 Scanner SP = new Scanner(System.in);
 //int A = SP.nextInt();
 //System.out.println(A);
-String Amazon = "Manav";
+String Amazon = "Nice";
 System.out.println(Amazon);
 int value = Amazon.length();
 System.out.println(value);
